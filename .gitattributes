@@ -1,3 +1,5 @@
 .m2/** filter=lfs diff=lfs merge=lfs -text
 .jgo/** filter=lfs diff=lfs merge=lfs -text
+.m2/**/*.jar filter=lfs diff=lfs merge=lfs -text
+.jgo/**/* filter=lfs diff=lfs merge=lfs -text
 imagej_maven filter=lfs diff=lfs merge=lfs -text
